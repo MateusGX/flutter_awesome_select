@@ -1,4 +1,4 @@
-![Pub Version](https://img.shields.io/pub/v/awesome_select) ![GitHub](https://img.shields.io/github/license/akbarpulatov/flutter_smart_select)
+![Pub Version](https://img.shields.io/pub/v/fixed_awesome_select) ![GitHub](https://img.shields.io/github/license/akbarpulatov/flutter_smart_select)
 
 ## About
 

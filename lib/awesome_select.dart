@@ -1,4 +1,4 @@
-library awesome_select;
+library fixed_awesome_select;
 
 export 'src/widget.dart';
 export 'src/text.dart';

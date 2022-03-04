@@ -1,6 +1,6 @@
 import 'package:async/async.dart';
 import 'package:flutter/material.dart';
-import 'package:awesome_select/awesome_select.dart';
+import 'package:fixed_awesome_select/fixed_awesome_select.dart';
 import 'package:dio/dio.dart';
 
 class FeaturesOptionAsync extends StatefulWidget {
