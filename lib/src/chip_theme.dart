@@ -56,12 +56,8 @@ class S2ChipTheme extends StatelessWidget {
     const EdgeInsetsGeometry padding = EdgeInsets.all(4.0);
 
     final Brightness brightness = Theme.of(context).brightness;
-    final bool isDark = brightness == Brightness.dark;
 
-    final Color primaryColor = color ??
-        (!isDark
-            ? Theme.of(context).unselectedWidgetColor
-            : ChipTheme.of(context).backgroundColor);
+    final Color primaryColor = color ?? Colors.blue;
     final Color backgroundColor = raised == true
         ? primaryColor
         : outlined == true
@@ -82,7 +78,7 @@ class S2ChipTheme extends StatelessWidget {
             ? secondaryColor.withAlpha(foregroundAlpha)
             : primaryColor.withAlpha(foregroundAlpha);
 
-    final TextStyle defaultLabelStyle = ChipTheme.of(context).labelStyle;
+    final TextStyle defaultLabelStyle = ChipTheme.of(context).labelStyle ?? new TextStyle();
     final TextStyle primaryLabelStyle =
         defaultLabelStyle.merge(labelStyle).copyWith(color: foregroundColor);
     final TextStyle selectedLabelStyle = defaultLabelStyle
